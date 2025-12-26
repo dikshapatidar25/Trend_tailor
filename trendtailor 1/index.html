@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrendTailor - Your Style Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">TrendTailor</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Shop</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Banner -->
+  <div class="slider">
+    <img id="img-1" src="./images/sliderimage2.png" alt="Image 1"/>
+    <img id="img-2" src="./images/Sliderimage3.webp" alt="Image 2"/>
+    <img id="img-3" src="./images/Sliderimage4.avif" alt="Image 3"/>
+    <img id="img-4" src="./images/Sliderimage5.jpg" alt="Image 4"/>
+    <img id="img-5" src="./images/Sliderimage6.avif" alt="Image 5"/>
+  </div>
+  <div class="navigation-button">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+    <span class="dot" onclick="changeSlide(3)"></span>
+    <span class="dot" onclick="changeSlide(4)"></span>
+  </div>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <a href="men.html">
+        <div class="cat-card">
+          <img src="./images\men shirt.avif" alt="">
+          <h3>Men</h3>
+        </a>
+      </div>
+
+      <div class="cat-card">
+        <a href="women.html">
+          <img src="./images/Saree.avif" alt="">
+          <h3>Women</h3>
+        </a>
+      </div>
+
+      <div class="cat-card">
+       <a href="kids.html"> 
+         <img src="./images/kidsimage/kidsimage11.jpeg" alt="">
+         <h3>Kids</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending -->
+  <section class="trending">
+    <h2>Trending Now</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="./images/Trending Now  1.jpeg" alt="">
+        <h4>Printed Shirt</h4>
+        <p>₹799</p>
+      </div>
+      <div class="product-card">
+        <img src="./images/2.webp" alt="">
+        <h4>Summer Dress</h4>
+        <p>₹1099</p>
+      </div>
+      <div class="product-card">
+        <img src="./images/graphic teee.jpg" alt="Topwear" />
+        <h4>Graphic Tee</h4>
+        <p>₹499</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust -->
+  <section class="trust">
+    <div class="trust-box">
+      <h3>Why TrendTailor?</h3>
+      <ul>
+        <li>✅ 7-day easy returns</li>
+        <li>✅ 100% secure payments</li>
+        <li>✅ Quality-checked products</li>
+        <li>✅ Fashion from top brands</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 TrendTailor. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/trendy_clothings_store/?hl=en">Instagram</a>
+        <a href="https://www.facebook.com/ClothingShopOnline/">Facebook</a>
+        <a href="https://x.com/ClothingDealsGB">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<script src="./js/index.js" ></script>
